@@ -14,7 +14,7 @@ if "%~1"=="" (
 )
 
 set "TARGET_DIR=%~1"
-set "EXE_PATH=C:\Users\xnscu\PDFDeSecure\bin\x64\Release\standalone\PDFDeSecure.exe"
+set "EXE_PATH=.\bin\x64\Release\standalone\PDFDeSecure.exe"
 
 if not exist "%EXE_PATH%" (
     echo 错误：找不到 PDFDeSecure.exe

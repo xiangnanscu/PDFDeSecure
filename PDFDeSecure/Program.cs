@@ -185,11 +185,11 @@ namespace PDFDeSecure
                 outpdf = null;
 
                 // 备份原文件
-                string backupFile = outputFile + ".bak";
-                if (File.Exists(outputFile))
-                {
-                    File.Copy(outputFile, backupFile, true);
-                }
+                // string backupFile = outputFile + ".bak";
+                // if (File.Exists(outputFile))
+                // {
+                //     File.Copy(outputFile, backupFile, true);
+                // }
 
                 // 替换原文件
                 File.Delete(outputFile);
